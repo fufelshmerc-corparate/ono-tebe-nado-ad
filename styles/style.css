@@ -6,23 +6,26 @@
 
  body {
      overflow-x: hidden;
-     font-family: 'Helvetica', Arial, sans-serif;
+     font-family: 'Raleway', sans-serif;
      line-height: 1.6;
      color: #000;
      width: 100vw;
  }
 
  .header {
+    
      max-width: 1400px;
      display: flex;
      flex-wrap: wrap;
      justify-content: space-between;
      align-items: center;
      padding: 2rem 5%;
+     padding-top: 100px;
  }
 
 
  .nav-menu {
+     order: 1;
      display: block;
  }
 
@@ -57,10 +60,6 @@
      position: relative;
  }
 
-
- .nav-menu {
-     order: 1;
- }
 
  .logo {
      order: 2;
